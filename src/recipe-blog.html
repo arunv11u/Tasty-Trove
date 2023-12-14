@@ -1,0 +1,278 @@
+<!-- *************************************************************************************** 
+*  NAME: Mital Hirapara
+*  STUDENT NUMBER: 8904946
+*************************************************************************************** -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Tasty Trove | Recipe</title>
+
+	<!-- Favicon Icon -->
+	<link rel="icon" type="image/x-icon" href="imgs/favicon.png">
+
+	<!-- Font Family -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Diplomata&family=Poppins:wght@200&family=Vast+Shadow&display=swap"
+		rel="stylesheet">
+
+	<!-- Custom css file -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Font-awesome Icon css file -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Bootstrap css file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<!-- Slick Slider CDN Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+
+
+
+</head>
+
+
+<body>
+	<!-- Preloader -->
+	<div id="preloader">
+		<i class="circle-preloader"></i>
+		<img src="imgs/Tasty Trove.ico" alt="Preloader">
+	</div>
+
+	<header class="header-area">
+		<div class="top-header-area">
+			<div class="container h-100">
+				<div class="row h-100 align-items-center justify-content-between">
+					<div class="col-12 col-sm-6">
+						<div class="breaking-news">
+							<div id="breakingNewsTicker" class="ticker">
+								<ul>
+									<li><a href="#">Hello Tasty Trove Family!</a></li>
+									<li><a href="#">Welcome to Tasty Trove Family!</a></li>
+									<li><a href="#">Explore a variety of delicious recipes!</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-6">
+						<div class="top-social-info text-right">
+							<a href="#"><i class="fa fa-pinterest"></i></a>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="delicious-main-menu">
+			<div class="classy-nav-container breakpoint-off">
+				<div class="container">
+					<nav class="classy-navbar justify-content-between" id="deliciousNav">
+
+						<a class="nav-brand" href="index.html"><img src="imgs/Tasty Trove.png"
+								alt="Tasty Trove Logo"></a>
+
+						<div class="classy-menu">
+							<div class="classynav">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="recipe.html">Recipes</a></li>
+									<li><a href="about.html">About Us</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<div class="sign-in-menu"><a href="signin.html"><i class="fa fa-sign-in"
+												aria-hidden="true"></i>Sign IN</a></div>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="breadcumb-area bg-img bg-overlay">
+		<div class="container h-100">
+			<div class="row h-100 align-items-center">
+				<div class="col-12">
+					<div class="breadcumb-text text-center">
+						<h2>Recipe</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="receipe-post-area pt-80">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="receipe-slider">
+						<img src="imgs/bg5.png" id="recipe-image">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="receipe-content-area pt-80">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-12 col-md-8">
+						<div class="receipe-headline ">
+							<span id="recipe-created-on">April 05, 2018</span>
+							<h2 id="recipe-name">Vegetarian cheese salad</h2>
+							<div class="recipe-duration">
+								<h6 id="recipe-prep-duration">Prep: 15 mins</h6>
+								<h6 id="recipe-cook-duration">Cook: 30 mins</h6>
+								<h6 id="recipe-yeild">Yields: 8 Servings</h6>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-4">
+						<div class="receipe-ratings text-right">
+							<div class="ratings">
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star-o" aria-hidden="true"></i>
+							</div>
+							<div class="main-border-button">
+								<a href="#" id="recipe-level">For Begginers</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row pb-80 pt-50">
+					<div class="col-12 col-lg-8" id="recipes"></div>
+
+					<div class="col-12 col-lg-4">
+						<div class="ingredients">
+							<h4>Ingredients</h4>
+
+							<div class="ingredient-list" id="ingredients"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="follow-us-instagram">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h5></h5>
+					</div>
+				</div>
+			</div>
+			<div class="insta-feeds d-flex flex-wrap">
+				<div class="single-insta-feeds">
+					<img src="imgs/insta1.jpg">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta2.jpg">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta3.jpg">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta4.jpg">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta5.jpg">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta6.jpg">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta7.jpg">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copy-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+
+					</div>
+					<div class="col-lg-12 footer-logo-copy">
+						<div class="footer-logo">
+							<a href="index.html"><img src="imgs/Tasty Trove.png" alt="Footer Logo"></a>
+						</div>
+						<div class="copyright">
+							<p>Copyright © 2023 <a class="company_name" href="index.html">Tasty Trove</a> || All Rights
+								Reserved.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Jquery CDN -->
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+	<!-- Slick Slider CDN js file -->
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<!-- Jquery file -->
+	<script src="js/slider.js"></script>
+
+	<!-- Bootstrap js file -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Main js -->
+	<script src="js/main.js"></script>
+
+	<script src="js/ticker.js"></script>
+	
+	<script src="js/recipe-blog.js"></script>
+</body>
+
+</html>

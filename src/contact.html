@@ -1,7 +1,8 @@
 <!-- *************************************************************************************** 
-*  NAME: Dolly Patel
-*  STUDENT NUMBER: 8937446
+*  NAME: Mital Hirapara
+*  STUDENT NUMBER: 8904946
 *************************************************************************************** -->
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,10 +11,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Tasty Trove - Contact</title>
+	<title>Tasty Trove | Contact Us</title>
 
 	<!-- Favicon Icon -->
-	<link rel="icon" type="image/x-icon" href="imgs/favicon-logo.png">
+	<link rel="icon" type="image/x-icon" href="imgs/favicon.png">
 
 	<!-- Font Family -->
 	<link
@@ -29,41 +30,79 @@
 	<!-- Bootstrap css file -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
+	<!-- Slick Slider CDN Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+
+
+
 </head>
 
 <body>
 
-	<!-- ***** Preloader Start ***** -->
+	<!-- Preloader -->
 	<div id="preloader">
-		<div class="jumper">
-			<div></div>
-			<div></div>
-			<div></div>
-		</div>
+		<i class="circle-preloader"></i>
+		<img src="imgs/Tasty Trove.ico" alt="Preloader">
 	</div>
 
-	<header class="header-area header-sticky">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<nav class="main-nav">
-						<a href="index.html" class="logo">
-							<img src="imgs/logo.svg">
-						</a>
-						<ul class="nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About US</a></li>
-							<li><a href="contact.html" class="active">Contact</a></li>
-							<li class="sign-in-menu"><a href="signin.html"><i class="fa fa-sign-in"
-										aria-hidden="true"></i>Sign IN</a></li>
-						</ul>
+	<header class="header-area">
+		<div class="top-header-area">
+			<div class="container h-100">
+				<div class="row h-100 align-items-center justify-content-between">
+					<div class="col-12 col-sm-6">
+						<div class="breaking-news">
+							<div id="breakingNewsTicker" class="ticker">
+								<ul>
+									<li><a href="#">Hello Tasty Trove Family!</a></li>
+									<li><a href="#">Welcome to Tasty Trove Family!</a></li>
+									<li><a href="#">Explore a variety of delicious recipes!</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-6">
+						<div class="top-social-info text-right">
+							<a href="#"><i class="fa fa-pinterest"></i></a>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="delicious-main-menu">
+			<div class="classy-nav-container breakpoint-off">
+				<div class="container">
+					<nav class="classy-navbar justify-content-between" id="deliciousNav">
+
+						<a class="nav-brand" href="index.html"><img src="imgs/Tasty Trove.png"
+								alt="Tasty Trove Logo"></a>
+
+						<div class="classy-menu">
+							<div class="classynav">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="recipe.html">Recipes</a></li>
+									<li><a href="about.html">About Us</a></li>
+									<li class="active"><a href="contact.html">Contact</a></li>
+									<div class="sign-in-menu"><a href="signin.html"><i class="fa fa-sign-in"
+												aria-hidden="true"></i>Sign IN</a></div>
+								</ul>
+							</div>
+						</div>
 					</nav>
 				</div>
 			</div>
 		</div>
 	</header>
 
-	<div class="contact-us-header" id="top">
+	<div class="contact-us-header bg-overlay pb-50" id="top">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -75,33 +114,26 @@
 		</div>
 	</div>
 
-	<div class="about-us">
+	<div class="about-us pt-80 pb-50">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="right-content">
-						<h4>Contact Us </h4>
-						<span>We'd love to hear from you at Tasty Trove! Whether you have a question, suggestion, or
-							just want to share your latest culinary triumph, our team is here for you. Reach out through
-							different channels.
-						</span>
-					</div>
 					<div class="col-lg-12  work-info">
 						<div class="row">
 							<div class="contact-box">
 								<div class="contact-box-img">
-									<img>
+									<img src="imgs/customer support.jpg">
 								</div>
-								<h4>Customer Support</h4>
+								<h4 class="text-center">Customer Support</h4>
 								<p class="text-center">Have a question about using our platform or need assistance? Our
 									dedicated customer
 									support team is ready to help. Drop us an email at support@tastytrove.com </p>
 							</div>
 							<div class="contact-box">
 								<div class="contact-box-img">
-									<img>
+									<img src="imgs/collaboration.jpg">
 								</div>
-								<h4>Collaborations and Partnerships</h4>
+								<h4 class="text-center">Collaborations and Partnerships</h4>
 								<p class="text-center">Interested in collaborating with Tasty Trove? We're always open
 									to exciting
 									partnerships. For business inquiries, email us at partnerships@tastytrove.com, and
@@ -109,9 +141,9 @@
 							</div>
 							<div class="contact-box">
 								<div class="contact-box-img">
-									<img>
+									<img src="imgs/feedback.avif">
 								</div>
-								<h4>Feedback and Suggestions</h4>
+								<h4 class="text-center">Feedback and Suggestions</h4>
 								<p class="text-center">Your feedback is invaluable to us! If you have suggestions for
 									improvements or want
 									to share your thoughts on Tasty Trove, send us an email at feedback@tastytrove.com.
@@ -123,12 +155,17 @@
 			</div>
 		</div>
 	</div>
-	<div class="get-in-touch">
+	<div class="get-in-touch pt-50 pb-50">
 		<div class="container">
-			<div class="row">
+			<div class="row pb-50">
 				<div class="col-12">
 					<div class="touch-heading">
 						<h4>Get In Touch</h4>
+						<span>We'd love to hear from you at Tasty Trove! Whether you have a
+							question, suggestion, or just want to share your latest culinary triumph, <br> our team is
+							here
+							for you. Reach out through different channels.
+						</span>
 					</div>
 				</div>
 			</div>
@@ -159,60 +196,107 @@
 								</div>
 							</div>
 						</form>
-						<div class="notification hidden" id="notification"></div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="mission about-us">
-		<div class="container">
+	<div class="mission about-us pt-80">
+		<div class="container-fluid">
 			<div class="col-lg-12">
 				<div>
-					<h4>Visit Us </h4>
+					<h4 class="text-center">Visit Us</h4>
 					<span class="mission-para">While we're a digital platform, we always welcome visitors! If you're in
 						the area, drop by our office. We'd be delighted to meet you.
 					</span>
+					<div class="map">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20868.153268658054!2d-121.96986056523436!3d49.1717345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54843f9de37134b1%3A0x76e808dfcfa78d6a!2s46240%20Yale%20Rd%2C%20Chilliwack%2C%20BC%20V2P%202P3!5e0!3m2!1sen!2sca!4v1702540035400!5m2!1sen!2sca"
+							width="1460" height="450" style="border:0;" allowfullscreen="true" loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="first-item">
-						<div class="logo">
-							<img src="imgs/footer logo.png" alt="Glamour & Grace">
-						</div>
-						<ul>
-							<li><a href="#">123 Main Street Kitchener, ON Canada, A1B 2C3</a></li>
-							<li><a href="#">glamourand grace@gmail.com</a></li>
-							<li><a href="#">+1 (254) 978-2340</a></li>
-						</ul>
+		<div class="follow-us-instagram">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h5></h5>
 					</div>
 				</div>
-				<div class="col-lg-3 links">
-					<h4>Useful Links</h4>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About Us</a></li>
-					</ul>
+			</div>
+			<div class="insta-feeds d-flex flex-wrap">
+				<div class="single-insta-feeds">
+					<img src="imgs/insta1.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
 				</div>
-				<div class="col-lg-3 social_media">
-					<h4>Social Media</h4>
-					<ul>
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#"><i class="fa fa-behance"></i></a></li>
-					</ul>
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta2.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
 				</div>
-				<div class="col-lg-12">
-					<div class="copyright">
-						<p>Copyright © 2023 <a class="company_name" href="index.html">GLAMOUR & GRASE.</a> All Rights
-							Reserved.</p>
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta3.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta4.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta5.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta6.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta7.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copy-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+
+					</div>
+					<div class="col-lg-12 footer-logo-copy">
+						<div class="footer-logo">
+							<a href="index.html"><img src="imgs/Tasty Trove.png" alt="Footer Logo"></a>
+						</div>
+						<div class="copyright">
+							<p>Copyright © 2023 <a class="company_name" href="index.html">Tasty Trove</a> || All Rights
+								Reserved.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -222,12 +306,22 @@
 	<!-- Jquery CDN -->
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
+	<!-- Slick Slider CDN js file -->
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<!-- Jquery file -->
+	<script src="js/slider.js"></script>
+
 	<!-- Bootstrap js file -->
 	<script src="js/bootstrap.min.js"></script>
 
 	<!-- Main js -->
 	<script src="js/main.js"></script>
+
+	<script src="js/ticker.js"></script>
+	
 	<script src="js/contact.js"></script>
+
 </body>
 
 </html>

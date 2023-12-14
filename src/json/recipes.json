@@ -1,0 +1,218 @@
+[
+	{
+		"image": "./imgs/r1.jpg",
+		"createdOn": "April 05, 2018",
+		"name": "Sushi Easy Receipy",
+		"prepDuration": 15,
+		"cookingDuration": 30,
+		"yields": 8,
+		"steps": [
+			"lorem ipsum",
+			"lorem ip",
+			"lorem"
+		],
+		"ingredients": [
+			"4 tbsp (57 gr) butter",
+			"2 large eggs"
+		],
+		"level": "For Beginners"
+	},
+	{
+		"image": "./imgs/r2.jpg",
+		"createdOn": "April 05, 2018",
+		"name": "Homemade Burger",
+		"prepDuration": 15,
+		"cookingDuration": 30,
+		"yields": 8,
+		"steps": [
+			"lorem ipsum",
+			"lorem ipsum",
+			"lorem ipsum"
+		],
+		"ingredients": [
+			"4 tbsp (57 gr) butter",
+			"2 large eggs"
+		],
+		"level": "For Beginners"
+	},
+	{
+		"image": "./imgs/r3.jpg",
+		"createdOn": "April 05, 2018",
+		"name": "Vegan Smoothie",
+		"prepDuration": 15,
+		"cookingDuration": 30,
+		"yields": 8,
+		"steps": [
+			"lorem ipsum",
+			"lorem ipsum",
+			"lorem ipsum"
+		],
+		"ingredients": [
+			"4 tbsp (57 gr) butter",
+			"2 large eggs"
+		],
+		"level": "For Beginners"
+	},
+	{
+		"image": "./imgs/r1.jpg",
+		"createdOn": "April 05, 2018",
+		"name": "Sushi Easy Receipy",
+		"prepDuration": 15,
+		"cookingDuration": 30,
+		"yields": 8,
+		"steps": [
+			"lorem ipsum",
+			"lorem ip",
+			"lorem"
+		],
+		"ingredients": [
+			"4 tbsp (57 gr) butter",
+			"2 large eggs"
+		],
+		"level": "For Beginners"
+	},
+	{
+		"image": "./imgs/r2.jpg",
+		"createdOn": "April 05, 2018",
+		"name": "Homemade Burger",
+		"prepDuration": 15,
+		"cookingDuration": 30,
+		"yields": 8,
+		"steps": [
+			"lorem ipsum",
+			"lorem ipsum",
+			"lorem ipsum"
+		],
+		"ingredients": [
+			"4 tbsp (57 gr) butter",
+			"2 large eggs"
+		],
+		"level": "For Beginners"
+	},
+	{
+		"image": "./imgs/r3.jpg",
+		"createdOn": "April 05, 2018",
+		"name": "Vegan Smoothie",
+		"prepDuration": 15,
+		"cookingDuration": 30,
+		"yields": 8,
+		"steps": [
+			"lorem ipsum",
+			"lorem ipsum",
+			"lorem ipsum"
+		],
+		"ingredients": [
+			"4 tbsp (57 gr) butter",
+			"2 large eggs"
+		],
+		"level": "For Beginners"
+	},
+	{
+		"image": "./imgs/r1.jpg",
+		"createdOn": "April 05, 2018",
+		"name": "Sushi Easy Receipy",
+		"prepDuration": 15,
+		"cookingDuration": 30,
+		"yields": 8,
+		"steps": [
+			"lorem ipsum",
+			"lorem ip",
+			"lorem"
+		],
+		"ingredients": [
+			"4 tbsp (57 gr) butter",
+			"2 large eggs"
+		],
+		"level": "For Beginners"
+	},
+	{
+		"image": "./imgs/r2.jpg",
+		"createdOn": "April 05, 2018",
+		"name": "Homemade Burger",
+		"prepDuration": 15,
+		"cookingDuration": 30,
+		"yields": 8,
+		"steps": [
+			"lorem ipsum",
+			"lorem ipsum",
+			"lorem ipsum"
+		],
+		"ingredients": [
+			"4 tbsp (57 gr) butter",
+			"2 large eggs"
+		],
+		"level": "For Beginners"
+	},
+	{
+		"image": "./imgs/r3.jpg",
+		"createdOn": "April 05, 2018",
+		"name": "Vegan Smoothie",
+		"prepDuration": 15,
+		"cookingDuration": 30,
+		"yields": 8,
+		"steps": [
+			"lorem ipsum",
+			"lorem ipsum",
+			"lorem ipsum"
+		],
+		"ingredients": [
+			"4 tbsp (57 gr) butter",
+			"2 large eggs"
+		],
+		"level": "For Beginners"
+	},
+	{
+		"image": "./imgs/r1.jpg",
+		"createdOn": "April 05, 2018",
+		"name": "Sushi Easy Receipy",
+		"prepDuration": 15,
+		"cookingDuration": 30,
+		"yields": 8,
+		"steps": [
+			"lorem ipsum",
+			"lorem ip",
+			"lorem"
+		],
+		"ingredients": [
+			"4 tbsp (57 gr) butter",
+			"2 large eggs"
+		],
+		"level": "For Beginners"
+	},
+	{
+		"image": "./imgs/r2.jpg",
+		"createdOn": "April 05, 2018",
+		"name": "Homemade Burger",
+		"prepDuration": 15,
+		"cookingDuration": 30,
+		"yields": 8,
+		"steps": [
+			"lorem ipsum",
+			"lorem ipsum",
+			"lorem ipsum"
+		],
+		"ingredients": [
+			"4 tbsp (57 gr) butter",
+			"2 large eggs"
+		],
+		"level": "For Beginners"
+	},
+	{
+		"image": "./imgs/r3.jpg",
+		"createdOn": "April 05, 2018",
+		"name": "Vegan Smoothie",
+		"prepDuration": 15,
+		"cookingDuration": 30,
+		"yields": 8,
+		"steps": [
+			"lorem ipsum",
+			"lorem ipsum",
+			"lorem ipsum"
+		],
+		"ingredients": [
+			"4 tbsp (57 gr) butter",
+			"2 large eggs"
+		],
+		"level": "For Beginners"
+	}
+]
