@@ -11,10 +11,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Glamour & Grace</title>
+	<title>Tasty Trove | Home</title>
 
 	<!-- Favicon Icon -->
-	<link rel="icon" type="image/x-icon" href="imgs/favicon-logo.png">
+	<link rel="icon" type="image/x-icon" href="imgs/Tasty Trove.ico">
 
 	<!-- Font Family -->
 	<link
@@ -31,36 +31,70 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
 	<!-- Slick Slider CDN Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
-
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
 </head>
 
 <body>
 
-	<!-- ***** Preloader Start ***** -->
+	<!-- Preloader -->
 	<div id="preloader">
-		<div class="jumper">
-			<div></div>
-			<div></div>
-			<div></div>
-		</div>
+		<i class="circle-preloader"></i>
+		<img src="imgs/Tasty Trove.ico" alt="Preloader">
 	</div>
 
-	<header class="header-area header-sticky">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<nav class="main-nav">
-						<a href="index.html" class="logo">
-							<img src="imgs/logo.svg">
-						</a>
-						<ul class="nav">
-							<li><a href="index.html" class="active">Home</a></li>
-							<li><a href="about.html">About US</a></li>
-							<li class="sign-in-menu"><a href="signin.html"><i class="fa fa-sign-in"
-										aria-hidden="true"></i>Sign IN</a></li>
-						</ul>
+	<header class="header-area">
+		<!-- Top Header Area -->
+		<div class="top-header-area">
+			<div class="container h-100">
+				<div class="row h-100 align-items-center justify-content-between">
+					<!-- Breaking News -->
+					<div class="col-12 col-sm-6">
+						<div class="breaking-news">
+							<div id="breakingNewsTicker" class="ticker">
+								<ul>
+									<li><a href="#">Hello Tasty Trove Family!</a></li>
+									<li><a href="#">Welcome to Tasty Trove Family!</a></li>
+									<li><a href="#">Explore a variety of delicious recipes!</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Top Social Info -->
+					<div class="col-12 col-sm-6">
+						<div class="top-social-info text-right">
+							<a href="#"><i class="fa fa-pinterest"></i></a>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Navbar Area -->
+		<div class="delicious-main-menu">
+			<div class="classy-nav-container breakpoint-off">
+				<div class="container">
+					<nav class="classy-navbar justify-content-between" id="deliciousNav">
+
+						<a class="nav-brand" href="index.html"><img src="imgs/Tasty Trove.png"
+								alt="Tasty Trove Logo"></a>
+
+						<div class="classy-menu">
+							<div class="classynav">
+								<ul>
+									<li class="active"><a href="index.html">Home</a></li>
+									<li><a href="#">Recipes</a></li>
+									<li><a href="about.html">About Us</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+						</div>
 					</nav>
 				</div>
 			</div>
@@ -70,104 +104,298 @@
 	<div class="main-banner" id="top">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-12">
 					<div class="left-content">
 						<div class="img-shadow">
-							<div class="inner-content">
+							<div class="inner-content main-header-info">
 								<div class="typing-container">
 									<h4 id="typer"></h4>
 								</div>
-								<span>Where Beauty Meets Poise and Style</span>
+								<span>Welcome to <a href="#" class="company_name">Tasty Trove!</a> Dive into our
+									culinary haven, exploring diverse,
+									delectable recipes that promise to elevate your cooking experience. From appetizers
+									to desserts, savor the joy of flavorful discovery!</span>
 								<div class="main-border-button">
-									<a href="#">Purchase Now!</a>
+									<a href="#">Explore More!</a>
 								</div>
 							</div>
-							<img src="imgs/main-header.jpg" alt="Main Header">
+							<img src="imgs/bg1.jpg" alt="Main Header">
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
+			</div>
+		</div>
+	</div>
+
+
+	<!-- ##### Hero Area Start ##### -->
+	<section class="hero-area">
+		<div class="hero-slides owl-carousel">
+			<!-- Single Hero Slide -->
+			<div class="single-hero-slide bg-img" style="background-image: url(imgs/bg1.jpg);">
+				<div class="container h-100">
+					<div class="row h-100 align-items-center">
+						<div class="col-12 col-md-9 col-lg-7 col-xl-6">
+							<div class="hero-slides-content" data-animation="fadeInUp" data-delay="100ms">
+								<h2 data-animation="fadeInUp" data-delay="300ms">Delicios Homemade Burger</h2>
+								<p data-animation="fadeInUp" data-delay="700ms">Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit. Cras tristique nisl vitae luctus sollicitudin. Fusce consectetur
+									sem eget dui tristique, ac posuere arcu varius.</p>
+								<a href="#" class="main-border-button" data-animation="fadeInUp" data-delay="1000ms">See
+									Receipe</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Single Hero Slide -->
+			<div class="single-hero-slide bg-img" style="background-image: url(imgs/bg4.jpg);">
+				<div class="container h-100">
+					<div class="row h-100 align-items-center">
+						<div class="col-12 col-md-9 col-lg-7 col-xl-6">
+							<div class="hero-slides-content" data-animation="fadeInUp" data-delay="100ms">
+								<h2 data-animation="fadeInUp" data-delay="300ms">Delicios Homemade Burger</h2>
+								<p data-animation="fadeInUp" data-delay="700ms">Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit. Cras tristique nisl vitae luctus sollicitudin. Fusce consectetur
+									sem eget dui tristique, ac posuere arcu varius.</p>
+								<a href="#" class="main-border-button" data-animation="fadeInUp" data-delay="1000ms">See
+									Receipe</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Single Hero Slide -->
+			<div class="single-hero-slide bg-img" style="background-image: url(imgs/bg7.jpg);">
+				<div class="container h-100">
+					<div class="row h-100 align-items-center">
+						<div class="col-12 col-md-9 col-lg-7 col-xl-6">
+							<div class="hero-slides-content" data-animation="fadeInUp" data-delay="100ms">
+								<h2 data-animation="fadeInUp" data-delay="300ms">Delicios Homemade Burger</h2>
+								<p data-animation="fadeInUp" data-delay="700ms">Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit. Cras tristique nisl vitae luctus sollicitudin. Fusce consectetur
+									sem eget dui tristique, ac posuere arcu varius.</p>
+								<a href="#" class="main-border-button" data-animation="fadeInUp" data-delay="1000ms">See
+									Receipe</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ##### Hero Area End ##### -->
+
+
+
+
+	<section class="top-catagory-area pt-50">
+		<div class="container">
+			<div class="row">
+				<!-- Top Catagory Area -->
+				<div class="col-12 col-lg-6">
+					<div class="single-top-catagory">
+						<img src="imgs/bg2.jpg" alt="">
+						<!-- Content -->
+						<div class="top-cta-content">
+							<h3>Strawberry Cake</h3>
+							<h6>Simple &amp; Delicios</h6>
+							<div class="main-border-button">
+								<a href="#">See Full Receipe</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Top Catagory Area -->
+				<div class="col-12 col-lg-6">
+					<div class="single-top-catagory">
+						<img src="imgs/bg3.jpg" alt="">
+						<!-- Content -->
+						<div class="top-cta-content">
+							<h3>Chinesse Noodles</h3>
+							<h6>Simple &amp; Delicios</h6>
+							<div class="main-border-button">
+								<a href="#">See Full Receipe</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="main-banner pt-50 pb-80 best-recipes" id="top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="best-recipe">
+						<h2>The best Receipies</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
 					<div class="right-content">
 						<div class="row">
-							<div class="col-lg-6">
+							<div class="col-lg-4">
 								<div class="right-first-image">
 									<div class="img-shadow">
-										<div class="inner-content">
-											<h4>Women</h4>
-											<span>Discover Women's Trends</span>
-										</div>
 										<div class="hover-content">
 											<div class="inner">
-												<h4>Women</h4>
-												<p>Discover Timeless Styles for Women
+												<h4>Recipe 1</h4>
+												<p>Sushi Easy Receipy
 												</p>
 												<div class="main-border-button">
-													<a href="#">Discover More</a>
+													<a href="#">Discover More!</a>
 												</div>
 											</div>
 										</div>
-										<img src="imgs/women-banner.jpg">
+										<img src="imgs/r1.jpg">
+										<div class="recipe-content">
+											<h5>Sushi Easy Receipy</h5>
+											<div class="rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-6">
+							<div class="col-lg-4">
 								<div class="right-first-image">
 									<div class="img-shadow">
-										<div class="inner-content">
-											<h4>Men</h4>
-											<span>Best Clothes For Men</span>
-										</div>
 										<div class="hover-content">
 											<div class="inner">
-												<h4>Men</h4>
-												<p>Explore Sophisticated Men's Fashion
+												<h4>Recipe 2</h4>
+												<p>Homemade Burger
 												</p>
 												<div class="main-border-button">
-													<a href="#">Discover More</a>
+													<a href="#">Discover More!</a>
 												</div>
 											</div>
 										</div>
-										<img src="imgs/man-banner.jpg">
+										<img src="imgs/r2.jpg">
+										<div class="recipe-content">
+											<h5>Homemade Burger</h5>
+											<div class="rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-o"></i>
+												<i class="fa fa-star-o"></i>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-6">
+							<div class="col-lg-4">
 								<div class="right-first-image">
 									<div class="img-shadow">
-										<div class="inner-content">
-											<h4>Kids</h4>
-											<span>Kids' Fashion that Sparks Joy</span>
-										</div>
 										<div class="hover-content">
 											<div class="inner">
-												<h4>Kids</h4>
-												<p>Adorable Fashion for Little Trendsetters</p>
+												<h4>Recipe 3</h4>
+												<p>Vegan Smoothie</p>
+												<div class="main-border-button">
+													<a href="#">Discover More!</a>
+												</div>
+											</div>
+										</div>
+										<img src="imgs/r3.jpg">
+										<div class="recipe-content">
+											<h5>Vegan Smoothie</h5>
+											<div class="rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-o"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="right-first-image">
+									<div class="img-shadow">
+										<div class="hover-content">
+											<div class="inner">
+												<h4>Recipe 4</h4>
+												<p>Calabasa soup</p>
+												<div class="main-border-button">
+													<a href="#">Discover More!</a>
+												</div>
+											</div>
+										</div>
+										<img src="imgs/r4.jpg">
+										<div class="recipe-content">
+											<h5>Calabasa soup</h5>
+											<div class="rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-o"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="right-first-image">
+									<div class="img-shadow">
+										<div class="hover-content">
+											<div class="inner">
+												<h4>Recipe 5</h4>
+												<p>Homemade Breakfast</p>
+												<div class="main-border-button">
+													<a href="#">Discover More!</a>
+												</div>
+											</div>
+										</div>
+										<img src="imgs/r5.jpg">
+										<div class="recipe-content">
+											<h5>Homemade Breakfast</h5>
+											<div class="rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="right-first-image">
+									<div class="img-shadow">
+										<div class="hover-content">
+											<div class="inner">
+												<h4>Recipe 6</h4>
+												<p>Healthy Fruit Desert</p>
 												<div class="main-border-button">
 													<a href="#">Discover More</a>
 												</div>
 											</div>
 										</div>
-										<img src="imgs/kids-banner.jpg">
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="right-first-image">
-									<div class="img-shadow">
-										<div class="inner-content">
-											<h4>Accessories</h4>
-											<span>Accessories for Every Occasion</span>
-										</div>
-										<div class="hover-content">
-											<div class="inner">
-												<h4>Accessories</h4>
-												<p>Elevate Your Look with Stylish Accessories</p>
-												<div class="main-border-button">
-													<a href="#">Discover More</a>
-												</div>
+										<img src="imgs/r6.jpg">
+										<div class="recipe-content">
+											<h5>Healthy Fruit Desert</h5>
+											<div class="rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-o"></i>
 											</div>
 										</div>
-										<img src="imgs/access-banner.jpg">
 									</div>
 								</div>
 							</div>
@@ -178,13 +406,36 @@
 		</div>
 	</div>
 
-	<section class="section" id="product">
+
+	<section class="cta-area bg-img bg-overlay">
+		<div class="container h-100">
+			<div class="row h-100 align-items-center">
+				<div class="col-12">
+					<!-- Cta Content -->
+					<div class="cta-content text-center">
+						<h2>Nourishing Your Palate with Flavorful Recipes</h2>
+						<p>Welcome to "Tasty Trove," your culinary haven for nourishing recipes. Explore a
+							collection of easy-to-follow creations, crafted to delight your taste buds with wholesome
+							ingredients. Join us in celebrating the joy of cooking and savoring satisfying,
+							health-conscious meals.</p>
+						<div class="main-border-button">
+							<a href="#">Discover all the receipies!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="section" id="review">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="section-heading">
-						<h2>Men's Latest</h2>
-						<span>Style the trend!</span>
+						<h2>Customer Reviews</h2>
+						<span>Delightful Experiences Shared by Our Valued Tasters – Explore the Tasty Trove
+							Reviews!</span>
 					</div>
 				</div>
 			</div>
@@ -192,109 +443,129 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="product_slider">
+					<div class="review-slider">
 						<div class="item">
-							<div class="img-shadow">
-								<div class="hover-content">
-									<ul>
-										<li><a href="#"><i class="fa fa-eye"></i></a></li>
-										<li><a href="#"><i class="fa fa-star"></i></a>
-										</li>
-										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
-										</li>
-									</ul>
+							<section class="review-box review-1">
+								<div class="cus-img">
+									<img src="imgs/customer 1.png" alt="CUSTOMER REVIEW">
 								</div>
-								<img src="imgs/men-01.jpg" alt="">
-							</div>
-							<div class="down-content">
-								<h4>Mens Crewneck Sweater</h4>
-								<span class="price">$120.00</span>
-								<ul class="stars">
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-								</ul>
-							</div>
+								<div class="cus-review-con">
+									<div class="cus-review-sub-con">
+										<img src="imgs/review-quote.png" alt="REVIEW-QUOTE" class="review-quote">
+										<p class="review-content-info head-content">
+											I stumbled upon Tasty Trove Recipe website recently, and it's become my
+											go-to for culinary inspiration! The variety of recipes is amazing, and the
+											step-by-step instructions are so easy to follow. I've tried several dishes,
+											and they all turned out delicious. Kudos to Tasty Trove for making cooking
+											so enjoyable!
+										</p>
+									</div>
+									<h3 class="customer-name">Dr. Berniece McGlynn</h3>
+								</div>
+							</section>
 						</div>
 
 						<div class="item">
-							<div class="img-shadow">
-								<div class="hover-content">
-									<ul>
-										<li><a href="#"><i class="fa fa-eye"></i></a></li>
-										<li><a href="#"><i class="fa fa-star"></i></a>
-										</li>
-										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
-										</li>
-									</ul>
+							<section class="review-box review-2">
+								<div class="cus-img">
+									<img src="imgs/customer 2.png" alt="CUSTOMER REVIEW">
 								</div>
-								<img src="imgs/men-02.jpg" alt="">
-							</div>
-							<div class="down-content">
-								<h4>Mens Dress Shirts</h4>
-								<span class="price">$90.00</span>
-								<ul class="stars">
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-								</ul>
-							</div>
+								<div class="cus-review-con">
+									<div class="cus-review-sub-con">
+										<img src="imgs/review-quote.png" alt="REVIEW-QUOTE" class="review-quote">
+										<p class="review-content-info head-content">
+											As a novice in the kitchen, I can't express how grateful I am for Tasty
+											Trove. The recipes cater to all skill levels, and the results are always
+											impressive. I've surprised myself and my friends with some fantastic meals,
+											thanks to this website. Highly recommended for anyone looking to up their
+											cooking game!
+										</p>
+									</div>
+									<h3 class="customer-name">Koby Cruickshank</h3>
+								</div>
+							</section>
 						</div>
 
 						<div class="item">
-							<div class="img-shadow">
-								<div class="hover-content">
-									<ul>
-										<li><a href="#"><i class="fa fa-eye"></i></a></li>
-										<li><a href="#"><i class="fa fa-star"></i></a>
-										</li>
-										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
-										</li>
-									</ul>
+							<section class="review-box review-2">
+								<div class="cus-img">
+									<img src="imgs/customer 3.png" alt="CUSTOMER REVIEW">
 								</div>
-								<img src="imgs/men-03.jpg" alt="">
-							</div>
-							<div class="down-content">
-								<h4>Jones Men's T-shirt</h4>
-								<span class="price">$150.00</span>
-								<ul class="stars">
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-								</ul>
-							</div>
+								<div class="cus-review-con">
+									<div class="cus-review-sub-con">
+										<img src="imgs/review-quote.png" alt="REVIEW-QUOTE" class="review-quote">
+										<p class="review-content-info head-content">
+											Tasty Trove is a treasure trove indeed! The recipes cover a wide range of
+											cuisines, and I appreciate the attention to detail in each recipe. The
+											ingredient lists are manageable, and the flavor combinations are spot-on.
+											It's my one-stop-shop for meal planning, and I've yet to be disappointed.
+										</p>
+									</div>
+									<h3 class="customer-name">Megan Thompson</h3>
+								</div>
+							</section>
 						</div>
 
 						<div class="item">
-							<div class="img-shadow">
-								<div class="hover-content">
-									<ul>
-										<li><a href="#"><i class="fa fa-eye"></i></a></li>
-										<li><a href="#"><i class="fa fa-star"></i></a>
-										</li>
-										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
-										</li>
-									</ul>
+							<section class="review-box review-2">
+								<div class="cus-img">
+									<img src="imgs/customer 4.png" alt="CUSTOMER REVIEW">
 								</div>
-								<img src="imgs/men-04.png" alt="">
-							</div>
-							<div class="down-content">
-								<h4>Classic Wrinkle-Resistant</h4>
-								<span class="price">$120.00</span>
-								<ul class="stars">
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-								</ul>
-							</div>
+								<div class="cus-review-con">
+									<div class="cus-review-sub-con">
+										<img src="imgs/review-quote.png" alt="REVIEW-QUOTE" class="review-quote">
+										<p class="review-content-info head-content">
+											I love how Tasty Trove combines creativity with practicality. The recipes
+											are not only delicious but also incorporate accessible ingredients. The
+											website layout is user-friendly, and the search filters make it easy to find
+											recipes that suit dietary preferences. It's my culinary companion, and I
+											can't get enough of it!
+										</p>
+									</div>
+									<h3 class="customer-name">Koby Cruickshank</h3>
+								</div>
+							</section>
+						</div>
+
+						<div class="item">
+							<section class="review-box review-2">
+								<div class="cus-img">
+									<img src="imgs/customer 5.png" alt="CUSTOMER REVIEW">
+								</div>
+								<div class="cus-review-con">
+									<div class="cus-review-sub-con">
+										<img src="imgs/review-quote.png" alt="REVIEW-QUOTE" class="review-quote">
+										<p class="review-content-info head-content">
+											Tasty Trove has transformed my weeknight dinners! The quick and easy recipes
+											have saved me time without compromising on flavor. I appreciate the variety,
+											from vegetarian options to hearty meat dishes. The community aspect is
+											fantastic too – sharing tips and experiences with fellow foodies is a bonus.
+										</p>
+									</div>
+									<h3 class="customer-name">Olivia Davis</h3>
+								</div>
+							</section>
+						</div>
+
+						<div class="item">
+							<section class="review-box review-2">
+								<div class="cus-img">
+									<img src="imgs/customer 6.png" alt="CUSTOMER REVIEW">
+								</div>
+								<div class="cus-review-con">
+									<div class="cus-review-sub-con">
+										<img src="imgs/review-quote.png" alt="REVIEW-QUOTE" class="review-quote">
+										<p class="review-content-info head-content">
+											Tasty Trove has turned me into a weekend chef! The weekend specials and
+											themed collections make meal planning exciting. The photography is stunning
+											and adds to the overall experience. I've tried recipes for special
+											occasions, and they've always been a hit. Tasty Trove is now my culinary
+											secret weapon!
+										</p>
+									</div>
+									<h3 class="customer-name">Jessica Miller</h3>
+								</div>
+							</section>
 						</div>
 
 					</div>
@@ -303,166 +574,87 @@
 		</div>
 	</section>
 
-	<section class="section" id="product">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="section-heading">
-						<h2>Women's Clothing</h2>
-						<span>Confort you can wear anywhere!</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="product_slider">
-						<div class="item">
-							<div class="img-shadow">
-								<div class="hover-content">
-									<ul>
-										<li><a href="#"><i class="fa fa-eye"></i></a></li>
-										<li><a href="#"><i class="fa fa-star"></i></a>
-										</li>
-										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
-										</li>
-									</ul>
-								</div>
-								<img src="imgs/women-01.jpg" alt="">
-							</div>
-							<div class="down-content">
-								<h4>Classic Spring</h4>
-								<span class="price">$120.00</span>
-								<ul class="stars">
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-								</ul>
-							</div>
-						</div>
 
-						<div class="item">
-							<div class="img-shadow">
-								<div class="hover-content">
-									<ul>
-										<li><a href="#"><i class="fa fa-eye"></i></a></li>
-										<li><a href="#"><i class="fa fa-star"></i></a>
-										</li>
-										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
-										</li>
-									</ul>
-								</div>
-								<img src="imgs/women-02.jpg" alt="">
-							</div>
-							<div class="down-content">
-								<h4>Womens Short Dress</h4>
-								<span class="price">$99.99</span>
-								<ul class="stars">
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-								</ul>
-							</div>
-						</div>
 
-						<div class="item">
-							<div class="img-shadow">
-								<div class="hover-content">
-									<ul>
-										<li><a href="#"><i class="fa fa-eye"></i></a></li>
-										<li><a href="#"><i class="fa fa-star"></i></a>
-										</li>
-										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
-										</li>
-									</ul>
-								</div>
-								<img src="imgs/women-03.jpg" alt="">
-							</div>
-							<div class="down-content">
-								<h4>Sarin Mathews T-shirt </h4>
-								<span class="price">$360.00</span>
-								<ul class="stars">
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-								</ul>
-							</div>
-						</div>
 
-						<div class="item">
-							<div class="img-shadow">
-								<div class="hover-content">
-									<ul>
-										<li><a href="#"><i class="fa fa-eye"></i></a></li>
-										<li><a href="#"><i class="fa fa-star"></i></a>
-										</li>
-										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
-										</li>
-									</ul>
-								</div>
-								<img src="imgs/women-04.png" alt="">
-							</div>
-							<div class="down-content">
-								<h4>Mini Dress From GG's Closet</h4>
-								<span class="price">$230.00</span>
-								<ul class="stars">
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-								</ul>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="first-item">
-						<div class="logo">
-							<img src="imgs/footer logo.png" alt="Glamour & Grace">
-						</div>
-						<ul>
-							<li><a href="#">123 Main Street Kitchener, ON Canada, A1B 2C3</a></li>
-							<li><a href="#">glamourand grace@gmail.com</a></li>
-							<li><a href="#">+1 (254) 978-2340</a></li>
-						</ul>
+		<div class="follow-us-instagram">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h5></h5>
 					</div>
 				</div>
-				<div class="col-lg-3 links">
-					<h4>Useful Links</h4>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About Us</a></li>
-					</ul>
+			</div>
+			<div class="insta-feeds d-flex flex-wrap">
+				<div class="single-insta-feeds">
+					<img src="imgs/insta1.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
 				</div>
-				<div class="col-lg-3 social_media">
-					<h4>Social Media</h4>
-					<ul>
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#"><i class="fa fa-behance"></i></a></li>
-					</ul>
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta2.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
 				</div>
-				<div class="col-lg-12">
-					<div class="copyright">
-						<p>Copyright © 2023 <a class="company_name" href="index.html">GLAMOUR & GRASE.</a> All Rights
-							Reserved.</p>
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta3.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta4.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta5.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta6.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+
+				<div class="single-insta-feeds">
+					<img src="imgs/insta7.jpg" alt="">
+					<div class="insta-icon">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copy-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+
+					</div>
+					<div class="col-lg-12 footer-logo-copy">
+						<div class="footer-logo">
+							<a href="index.html"><img src="imgs/Tasty Trove.png" alt="Footer Logo"></a>
+						</div>
+						<div class="copyright">
+							<p>Copyright © 2023 <a class="company_name" href="index.html">Tasty Trove</a> || All Rights
+								Reserved.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -472,18 +664,19 @@
 	<!-- Jquery CDN -->
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
-	<!-- Slick Slider CDN JS file -->
+	<!-- Slick Slider CDN js file -->
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 	<!-- Jquery file -->
-	<script src="JS/slider.js"></script>
+	<script src="js/slider.js"></script>
 
-	<!-- Bootstrap JS file -->
-	<script src="JS/bootstrap.min.js"></script>
+	<!-- Bootstrap js file -->
+	<script src="js/bootstrap.min.js"></script>
 
-	<!-- Main JS -->
+	<!-- Main js -->
 	<script src="js/main.js"></script>
 	<script src="js/typer.js"></script>
+
 
 </body>
 

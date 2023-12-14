@@ -3,17 +3,18 @@
 $(() => {
 	// Array of sentences to be typed
 	const sentencesToType = [
-		"We are Glamour & Grace",
-		"Elevate Your Style with Our Latest Collections!",
-		"Shop the Latest Trends in Fashion Today.",
-		"Express yourself through fashion!",
-		"Elevate your everyday with Glamour & Grace"
+		"Discover Culinary Wonders in Every Bite!",
+        "Unveiling a Treasure Trove of Delectable Recipes!",
+        "Dive into Our Tasty Trove of Culinary Delights!",
+        "Explore the Tasty Trove for Epicurean Joy!",
+        "Explore a World of Tantalizing Culinary Inspirations!",
+        "Crafting Culinary Magic in Every Dish!"
 	];
 
-	let typer = $("#typer").get(0);  // Selecting the element with the id 'typer'
+	const typer = $("#typer").get(0);  // Selecting the element with the id 'typer'
 	// Speed of typing and delay between sentences
-	let speed = 70;
-	let delay = 700;
+	const speed = 70;
+	const delay = 700;
 
 	// Set variables to keep track of the current sentence and character
 	let currentIndex = 0, currentChar = 0;
