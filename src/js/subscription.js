@@ -58,13 +58,13 @@ function clearErrorMessagesInSubscriptionForm() {
 
 // Function to validate the 'name' input in the subscription form
 function validateName(name) {
-	
+
 	// Check if the name is empty
 	if (name == "") {
 		$("#name-error-msg").text("Name is required.");
 		return false;
 	}
-	
+
 	// Check if the name follows the specified pattern
 	const namePattern = /^[a-zA-Z ]+/;
 	if (!namePattern.test(name)) {
@@ -85,7 +85,7 @@ function validateEmail(email) {
 		$("#email-error-msg").text("Email is required.");
 		return false;
 	}
-	
+
 	// Check if the email follows the specified pattern
 	const emailPattern = /^[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]+$/;
 	if (!emailPattern.test(email)) {

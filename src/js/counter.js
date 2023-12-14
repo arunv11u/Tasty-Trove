@@ -9,7 +9,7 @@ $(() => {
 	const burgerRecipeCount = parseInt(localStorage.getItem("burgerRecipeCount"));
 	const meatRecipeCount = parseInt(localStorage.getItem("meatRecipeCount"));
 	const desertRecipeCount = parseInt(localStorage.getItem("desertRecipeCount"));
-	
+
 
 	// Increment the counter for Healthy Recipes on page load
 	incrementCounter(healthRecipeCount, duration, $("#health-recipe-counter"));

@@ -71,13 +71,13 @@ function clearErrorMessagesInContactForm() {
 
 // Function to validate the 'name' input
 function validateName(name) {
-	
+
 	// Check if the name is empty
 	if (name == "") {
 		$("#name-error-msg").text("Name is required.");
 		return false;
 	}
-	
+
 	// Check if the name follows the specified pattern
 	const namePattern = /^[a-zA-Z ]+$/;
 	if (!namePattern.test(name)) {
@@ -93,13 +93,13 @@ function validateName(name) {
 
 // Function to validate the 'email' input
 function validateEmail(email) {
-	
+
 	// Check if the email is empty
 	if (email == "") {
 		$("#email-error-msg").text("Email is required.");
 		return false;
 	}
-	
+
 	// Check if the email follows the specified pattern
 	const emailPattern = /^[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]+$/;
 	if (!emailPattern.test(email)) {

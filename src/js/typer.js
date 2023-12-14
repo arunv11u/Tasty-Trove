@@ -1,14 +1,14 @@
-'use sctrict';
+'use strict';
 
 $(() => {
 	// Array of sentences to be typed
 	const sentencesToType = [
 		"Discover Culinary Wonders in Every Bite!",
-        "Unveiling a Treasure Trove of Delectable Recipes!",
-        "Dive into Our Tasty Trove of Culinary Delights!",
-        "Explore the Tasty Trove for Epicurean Joy!",
-        "Explore a World of Tantalizing Culinary Inspirations!",
-        "Crafting Culinary Magic in Every Dish!"
+		"Unveiling a Treasure Trove of Delectable Recipes!",
+		"Dive into Our Tasty Trove of Culinary Delights!",
+		"Explore the Tasty Trove for Epicurean Joy!",
+		"Explore a World of Tantalizing Culinary Inspirations!",
+		"Crafting Culinary Magic in Every Dish!"
 	];
 
 	const typer = $("#typer").get(0);  // Selecting the element with the id 'typer'

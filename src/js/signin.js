@@ -85,7 +85,7 @@ function validateEmail(email) {
 
 	// Clear the error message if the email is valid
 	$("#email-error-msg").text("");
-	
+
 	return true;
 }
 
