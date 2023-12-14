@@ -7,13 +7,23 @@
 		"cookingDuration": 30,
 		"yields": 8,
 		"steps": [
-			"lorem ipsum",
-			"lorem ip",
-			"lorem"
+			"Cook sushi rice according to package instructions.",
+			"Place a nori sheet on a bamboo sushi rolling mat.",
+			"Spread a thin layer of sushi rice over the nori, leaving a small border.",
+			"Arrange fish slices, avocado, and cucumber along the center of the rice.",
+			"Roll the sushi tightly using the bamboo mat.",
+			"Slice the roll into bite-sized pieces.",
+			"Serve with soy sauce, wasabi, and pickled ginger."
 		],
 		"ingredients": [
-			"4 tbsp (57 gr) butter",
-			"2 large eggs"
+			"Sushi rice",
+			"Nori (seaweed sheets)",
+			"Fresh fish slices (e.g., salmon, tuna)",
+			"Avocado, sliced",
+			"Cucumber, julienned",
+			"Soy sauce",
+			"Wasabi",
+			"Pickled ginger"
 		],
 		"level": "For Beginners"
 	},
@@ -25,13 +35,22 @@
 		"cookingDuration": 30,
 		"yields": 8,
 		"steps": [
-			"lorem ipsum",
-			"lorem ipsum",
-			"lorem ipsum"
+			"Form ground beef into burger patties and season with salt and pepper.",
+			"Grill or cook the patties to your desired doneness.",
+			"Toast the burger buns.",
+			"Assemble the burgers with lettuce, tomato, onion, cheese, ketchup, mustard, and mayonnaise."
 		],
 		"ingredients": [
-			"4 tbsp (57 gr) butter",
-			"2 large eggs"
+			"Ground beef",
+			"Burger buns",
+			"Lettuce leaves",
+			"Tomato slices",
+			"Onion slices",
+			"Cheese slices",
+			"Ketchup",
+			"Mustard",
+			"Mayonnaise",
+			"Salt and pepper"
 		],
 		"level": "For Beginners"
 	},
@@ -43,13 +62,19 @@
 		"cookingDuration": 30,
 		"yields": 8,
 		"steps": [
-			"lorem ipsum",
-			"lorem ipsum",
-			"lorem ipsum"
+			"In a blender, combine frozen berries, banana, spinach, chia seeds, and almond milk.",
+			"Blend until smooth and creamy.",
+			"Adjust consistency with more almond milk if needed.",
+			"Sweeten with agave syrup if desired.",
+			"Pour into a glass and enjoy your vegan smoothie."
 		],
 		"ingredients": [
-			"4 tbsp (57 gr) butter",
-			"2 large eggs"
+			"Frozen mixed berries",
+			"Banana",
+			"Spinach leaves",
+			"Almond milk",
+			"Chia seeds",
+			"Agave syrup (optional)"
 		],
 		"level": "For Beginners"
 	},
@@ -61,13 +86,23 @@
 		"cookingDuration": 30,
 		"yields": 8,
 		"steps": [
-			"lorem ipsum",
-			"lorem ip",
-			"lorem"
+			"Cook sushi rice according to package instructions.",
+			"Place a nori sheet on a bamboo sushi rolling mat.",
+			"Spread a thin layer of sushi rice over the nori, leaving a small border.",
+			"Arrange fish slices, avocado, and cucumber along the center of the rice.",
+			"Roll the sushi tightly using the bamboo mat.",
+			"Slice the roll into bite-sized pieces.",
+			"Serve with soy sauce, wasabi, and pickled ginger."
 		],
 		"ingredients": [
-			"4 tbsp (57 gr) butter",
-			"2 large eggs"
+			"Sushi rice",
+			"Nori (seaweed sheets)",
+			"Fresh fish slices (e.g., salmon, tuna)",
+			"Avocado, sliced",
+			"Cucumber, julienned",
+			"Soy sauce",
+			"Wasabi",
+			"Pickled ginger"
 		],
 		"level": "For Beginners"
 	},
@@ -79,13 +114,22 @@
 		"cookingDuration": 30,
 		"yields": 8,
 		"steps": [
-			"lorem ipsum",
-			"lorem ipsum",
-			"lorem ipsum"
+			"Form ground beef into burger patties and season with salt and pepper.",
+			"Grill or cook the patties to your desired doneness.",
+			"Toast the burger buns.",
+			"Assemble the burgers with lettuce, tomato, onion, cheese, ketchup, mustard, and mayonnaise."
 		],
 		"ingredients": [
-			"4 tbsp (57 gr) butter",
-			"2 large eggs"
+			"Ground beef",
+			"Burger buns",
+			"Lettuce leaves",
+			"Tomato slices",
+			"Onion slices",
+			"Cheese slices",
+			"Ketchup",
+			"Mustard",
+			"Mayonnaise",
+			"Salt and pepper"
 		],
 		"level": "For Beginners"
 	},
@@ -97,13 +141,19 @@
 		"cookingDuration": 30,
 		"yields": 8,
 		"steps": [
-			"lorem ipsum",
-			"lorem ipsum",
-			"lorem ipsum"
+			"In a blender, combine frozen berries, banana, spinach, chia seeds, and almond milk.",
+			"Blend until smooth and creamy.",
+			"Adjust consistency with more almond milk if needed.",
+			"Sweeten with agave syrup if desired.",
+			"Pour into a glass and enjoy your vegan smoothie."
 		],
 		"ingredients": [
-			"4 tbsp (57 gr) butter",
-			"2 large eggs"
+			"Frozen mixed berries",
+			"Banana",
+			"Spinach leaves",
+			"Almond milk",
+			"Chia seeds",
+			"Agave syrup (optional)"
 		],
 		"level": "For Beginners"
 	},
@@ -115,13 +165,23 @@
 		"cookingDuration": 30,
 		"yields": 8,
 		"steps": [
-			"lorem ipsum",
-			"lorem ip",
-			"lorem"
+			"Cook sushi rice according to package instructions.",
+			"Place a nori sheet on a bamboo sushi rolling mat.",
+			"Spread a thin layer of sushi rice over the nori, leaving a small border.",
+			"Arrange fish slices, avocado, and cucumber along the center of the rice.",
+			"Roll the sushi tightly using the bamboo mat.",
+			"Slice the roll into bite-sized pieces.",
+			"Serve with soy sauce, wasabi, and pickled ginger."
 		],
 		"ingredients": [
-			"4 tbsp (57 gr) butter",
-			"2 large eggs"
+			"Sushi rice",
+			"Nori (seaweed sheets)",
+			"Fresh fish slices (e.g., salmon, tuna)",
+			"Avocado, sliced",
+			"Cucumber, julienned",
+			"Soy sauce",
+			"Wasabi",
+			"Pickled ginger"
 		],
 		"level": "For Beginners"
 	},
@@ -133,13 +193,22 @@
 		"cookingDuration": 30,
 		"yields": 8,
 		"steps": [
-			"lorem ipsum",
-			"lorem ipsum",
-			"lorem ipsum"
+			"Form ground beef into burger patties and season with salt and pepper.",
+			"Grill or cook the patties to your desired doneness.",
+			"Toast the burger buns.",
+			"Assemble the burgers with lettuce, tomato, onion, cheese, ketchup, mustard, and mayonnaise."
 		],
 		"ingredients": [
-			"4 tbsp (57 gr) butter",
-			"2 large eggs"
+			"Ground beef",
+			"Burger buns",
+			"Lettuce leaves",
+			"Tomato slices",
+			"Onion slices",
+			"Cheese slices",
+			"Ketchup",
+			"Mustard",
+			"Mayonnaise",
+			"Salt and pepper"
 		],
 		"level": "For Beginners"
 	},
@@ -151,13 +220,19 @@
 		"cookingDuration": 30,
 		"yields": 8,
 		"steps": [
-			"lorem ipsum",
-			"lorem ipsum",
-			"lorem ipsum"
+			"In a blender, combine frozen berries, banana, spinach, chia seeds, and almond milk.",
+			"Blend until smooth and creamy.",
+			"Adjust consistency with more almond milk if needed.",
+			"Sweeten with agave syrup if desired.",
+			"Pour into a glass and enjoy your vegan smoothie."
 		],
 		"ingredients": [
-			"4 tbsp (57 gr) butter",
-			"2 large eggs"
+			"Frozen mixed berries",
+			"Banana",
+			"Spinach leaves",
+			"Almond milk",
+			"Chia seeds",
+			"Agave syrup (optional)"
 		],
 		"level": "For Beginners"
 	},
@@ -169,13 +244,23 @@
 		"cookingDuration": 30,
 		"yields": 8,
 		"steps": [
-			"lorem ipsum",
-			"lorem ip",
-			"lorem"
+			"Cook sushi rice according to package instructions.",
+			"Place a nori sheet on a bamboo sushi rolling mat.",
+			"Spread a thin layer of sushi rice over the nori, leaving a small border.",
+			"Arrange fish slices, avocado, and cucumber along the center of the rice.",
+			"Roll the sushi tightly using the bamboo mat.",
+			"Slice the roll into bite-sized pieces.",
+			"Serve with soy sauce, wasabi, and pickled ginger."
 		],
 		"ingredients": [
-			"4 tbsp (57 gr) butter",
-			"2 large eggs"
+			"Sushi rice",
+			"Nori (seaweed sheets)",
+			"Fresh fish slices (e.g., salmon, tuna)",
+			"Avocado, sliced",
+			"Cucumber, julienned",
+			"Soy sauce",
+			"Wasabi",
+			"Pickled ginger"
 		],
 		"level": "For Beginners"
 	},
@@ -187,13 +272,22 @@
 		"cookingDuration": 30,
 		"yields": 8,
 		"steps": [
-			"lorem ipsum",
-			"lorem ipsum",
-			"lorem ipsum"
+			"Form ground beef into burger patties and season with salt and pepper.",
+			"Grill or cook the patties to your desired doneness.",
+			"Toast the burger buns.",
+			"Assemble the burgers with lettuce, tomato, onion, cheese, ketchup, mustard, and mayonnaise."
 		],
 		"ingredients": [
-			"4 tbsp (57 gr) butter",
-			"2 large eggs"
+			"Ground beef",
+			"Burger buns",
+			"Lettuce leaves",
+			"Tomato slices",
+			"Onion slices",
+			"Cheese slices",
+			"Ketchup",
+			"Mustard",
+			"Mayonnaise",
+			"Salt and pepper"
 		],
 		"level": "For Beginners"
 	},
@@ -205,13 +299,19 @@
 		"cookingDuration": 30,
 		"yields": 8,
 		"steps": [
-			"lorem ipsum",
-			"lorem ipsum",
-			"lorem ipsum"
+			"In a blender, combine frozen berries, banana, spinach, chia seeds, and almond milk.",
+			"Blend until smooth and creamy.",
+			"Adjust consistency with more almond milk if needed.",
+			"Sweeten with agave syrup if desired.",
+			"Pour into a glass and enjoy your vegan smoothie."
 		],
 		"ingredients": [
-			"4 tbsp (57 gr) butter",
-			"2 large eggs"
+			"Frozen mixed berries",
+			"Banana",
+			"Spinach leaves",
+			"Almond milk",
+			"Chia seeds",
+			"Agave syrup (optional)"
 		],
 		"level": "For Beginners"
 	}
