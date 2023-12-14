@@ -1,23 +1,490 @@
+<!-- *************************************************************************************** 
+*  NAME: Mital Hirapara
+*  STUDENT NUMBER: 8904946
+*************************************************************************************** -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./css/styles.css">
-	<title>Tasty Trove</title>
+
+	<title>Glamour & Grace</title>
+
+	<!-- Favicon Icon -->
+	<link rel="icon" type="image/x-icon" href="imgs/favicon-logo.png">
+
+	<!-- Font Family -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Diplomata&family=Poppins:wght@200&family=Vast+Shadow&display=swap"
+		rel="stylesheet">
+
+	<!-- Custom css file -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Font-awesome Icon css file -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Bootstrap css file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<!-- Slick Slider CDN Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
 </head>
 
 <body>
-	<header></header>
 
-	<main></main>
+	<!-- ***** Preloader Start ***** -->
+	<div id="preloader">
+		<div class="jumper">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+
+	<header class="header-area header-sticky">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="main-nav">
+						<a href="index.html" class="logo">
+							<img src="imgs/logo.svg">
+						</a>
+						<ul class="nav">
+							<li><a href="index.html" class="active">Home</a></li>
+							<li><a href="about.html">About US</a></li>
+							<li class="sign-in-menu"><a href="signin.html"><i class="fa fa-sign-in"
+										aria-hidden="true"></i>Sign IN</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="main-banner" id="top">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="left-content">
+						<div class="img-shadow">
+							<div class="inner-content">
+								<div class="typing-container">
+									<h4 id="typer"></h4>
+								</div>
+								<span>Where Beauty Meets Poise and Style</span>
+								<div class="main-border-button">
+									<a href="#">Purchase Now!</a>
+								</div>
+							</div>
+							<img src="imgs/main-header.jpg" alt="Main Header">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="right-content">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="right-first-image">
+									<div class="img-shadow">
+										<div class="inner-content">
+											<h4>Women</h4>
+											<span>Discover Women's Trends</span>
+										</div>
+										<div class="hover-content">
+											<div class="inner">
+												<h4>Women</h4>
+												<p>Discover Timeless Styles for Women
+												</p>
+												<div class="main-border-button">
+													<a href="#">Discover More</a>
+												</div>
+											</div>
+										</div>
+										<img src="imgs/women-banner.jpg">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="right-first-image">
+									<div class="img-shadow">
+										<div class="inner-content">
+											<h4>Men</h4>
+											<span>Best Clothes For Men</span>
+										</div>
+										<div class="hover-content">
+											<div class="inner">
+												<h4>Men</h4>
+												<p>Explore Sophisticated Men's Fashion
+												</p>
+												<div class="main-border-button">
+													<a href="#">Discover More</a>
+												</div>
+											</div>
+										</div>
+										<img src="imgs/man-banner.jpg">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="right-first-image">
+									<div class="img-shadow">
+										<div class="inner-content">
+											<h4>Kids</h4>
+											<span>Kids' Fashion that Sparks Joy</span>
+										</div>
+										<div class="hover-content">
+											<div class="inner">
+												<h4>Kids</h4>
+												<p>Adorable Fashion for Little Trendsetters</p>
+												<div class="main-border-button">
+													<a href="#">Discover More</a>
+												</div>
+											</div>
+										</div>
+										<img src="imgs/kids-banner.jpg">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="right-first-image">
+									<div class="img-shadow">
+										<div class="inner-content">
+											<h4>Accessories</h4>
+											<span>Accessories for Every Occasion</span>
+										</div>
+										<div class="hover-content">
+											<div class="inner">
+												<h4>Accessories</h4>
+												<p>Elevate Your Look with Stylish Accessories</p>
+												<div class="main-border-button">
+													<a href="#">Discover More</a>
+												</div>
+											</div>
+										</div>
+										<img src="imgs/access-banner.jpg">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="section" id="product">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="section-heading">
+						<h2>Men's Latest</h2>
+						<span>Style the trend!</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="product_slider">
+						<div class="item">
+							<div class="img-shadow">
+								<div class="hover-content">
+									<ul>
+										<li><a href="#"><i class="fa fa-eye"></i></a></li>
+										<li><a href="#"><i class="fa fa-star"></i></a>
+										</li>
+										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
+										</li>
+									</ul>
+								</div>
+								<img src="imgs/men-01.jpg" alt="">
+							</div>
+							<div class="down-content">
+								<h4>Mens Crewneck Sweater</h4>
+								<span class="price">$120.00</span>
+								<ul class="stars">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="img-shadow">
+								<div class="hover-content">
+									<ul>
+										<li><a href="#"><i class="fa fa-eye"></i></a></li>
+										<li><a href="#"><i class="fa fa-star"></i></a>
+										</li>
+										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
+										</li>
+									</ul>
+								</div>
+								<img src="imgs/men-02.jpg" alt="">
+							</div>
+							<div class="down-content">
+								<h4>Mens Dress Shirts</h4>
+								<span class="price">$90.00</span>
+								<ul class="stars">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="img-shadow">
+								<div class="hover-content">
+									<ul>
+										<li><a href="#"><i class="fa fa-eye"></i></a></li>
+										<li><a href="#"><i class="fa fa-star"></i></a>
+										</li>
+										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
+										</li>
+									</ul>
+								</div>
+								<img src="imgs/men-03.jpg" alt="">
+							</div>
+							<div class="down-content">
+								<h4>Jones Men's T-shirt</h4>
+								<span class="price">$150.00</span>
+								<ul class="stars">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="img-shadow">
+								<div class="hover-content">
+									<ul>
+										<li><a href="#"><i class="fa fa-eye"></i></a></li>
+										<li><a href="#"><i class="fa fa-star"></i></a>
+										</li>
+										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
+										</li>
+									</ul>
+								</div>
+								<img src="imgs/men-04.png" alt="">
+							</div>
+							<div class="down-content">
+								<h4>Classic Wrinkle-Resistant</h4>
+								<span class="price">$120.00</span>
+								<ul class="stars">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="product">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="section-heading">
+						<h2>Women's Clothing</h2>
+						<span>Confort you can wear anywhere!</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="product_slider">
+						<div class="item">
+							<div class="img-shadow">
+								<div class="hover-content">
+									<ul>
+										<li><a href="#"><i class="fa fa-eye"></i></a></li>
+										<li><a href="#"><i class="fa fa-star"></i></a>
+										</li>
+										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
+										</li>
+									</ul>
+								</div>
+								<img src="imgs/women-01.jpg" alt="">
+							</div>
+							<div class="down-content">
+								<h4>Classic Spring</h4>
+								<span class="price">$120.00</span>
+								<ul class="stars">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="img-shadow">
+								<div class="hover-content">
+									<ul>
+										<li><a href="#"><i class="fa fa-eye"></i></a></li>
+										<li><a href="#"><i class="fa fa-star"></i></a>
+										</li>
+										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
+										</li>
+									</ul>
+								</div>
+								<img src="imgs/women-02.jpg" alt="">
+							</div>
+							<div class="down-content">
+								<h4>Womens Short Dress</h4>
+								<span class="price">$99.99</span>
+								<ul class="stars">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="img-shadow">
+								<div class="hover-content">
+									<ul>
+										<li><a href="#"><i class="fa fa-eye"></i></a></li>
+										<li><a href="#"><i class="fa fa-star"></i></a>
+										</li>
+										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
+										</li>
+									</ul>
+								</div>
+								<img src="imgs/women-03.jpg" alt="">
+							</div>
+							<div class="down-content">
+								<h4>Sarin Mathews T-shirt </h4>
+								<span class="price">$360.00</span>
+								<ul class="stars">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="img-shadow">
+								<div class="hover-content">
+									<ul>
+										<li><a href="#"><i class="fa fa-eye"></i></a></li>
+										<li><a href="#"><i class="fa fa-star"></i></a>
+										</li>
+										<li><a href="#"><i class="fa fa-shopping-cart"></i></a>
+										</li>
+									</ul>
+								</div>
+								<img src="imgs/women-04.png" alt="">
+							</div>
+							<div class="down-content">
+								<h4>Mini Dress From GG's Closet</h4>
+								<span class="price">$230.00</span>
+								<ul class="stars">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<footer>
-		<p>&copy; 2023 Tasty Trove. All rights reserved.</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="first-item">
+						<div class="logo">
+							<img src="imgs/footer logo.png" alt="Glamour & Grace">
+						</div>
+						<ul>
+							<li><a href="#">123 Main Street Kitchener, ON Canada, A1B 2C3</a></li>
+							<li><a href="#">glamourand grace@gmail.com</a></li>
+							<li><a href="#">+1 (254) 978-2340</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 links">
+					<h4>Useful Links</h4>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 social_media">
+					<h4>Social Media</h4>
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-behance"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-lg-12">
+					<div class="copyright">
+						<p>Copyright © 2023 <a class="company_name" href="index.html">GLAMOUR & GRASE.</a> All Rights
+							Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer>
 
-	<script src="./js/main.js"></script>
+	<!-- Jquery CDN -->
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+	<!-- Slick Slider CDN JS file -->
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<!-- Jquery file -->
+	<script src="JS/slider.js"></script>
+
+	<!-- Bootstrap JS file -->
+	<script src="JS/bootstrap.min.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+	<script src="js/typer.js"></script>
+
 </body>
 
 </html>
